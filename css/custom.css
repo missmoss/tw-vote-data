@@ -1,0 +1,55 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+iframe {
+  border: none;
+  position: fixed;
+}
+nav a {
+  color: black;
+}
+p a {
+  color: #BA5E0A;
+}
+a:hover {
+  color: #BA5E0A;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+}
+h1 {
+  color: #FFF3E9;
+  font-size: 10rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1rem;
+}
+.bg {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%),
+  linear-gradient(269.97deg, #81C784 18.18%, #7986CB 80.98%);
+  height: 30rem;
+}
+.tw-grid {
+  height: 24rem;
+}
+img {
+  height: 100%;
+  width: auto;
+}
+@media (min-width: 992px) {
+  .intro{
+    width: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  .intro{
+    width: 700px;
+  }
+}
