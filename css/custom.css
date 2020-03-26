@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif;
 }
 iframe {
   border: none;
@@ -15,12 +15,18 @@ p a {
 a:hover {
   color: #BA5E0A;
 }
+.navbar p {
+  margin: 0;
+}
 .navbar-brand {
   font-weight: bold;
   font-size: 2rem;
   color: black;
+  font-family: 'Noto Sans', sans-serif;
+  padding-bottom: 0;
 }
 h1 {
+  font-family: 'Noto Sans', sans-serif;
   color: #FFF3E9;
   font-size: 10rem;
   font-weight: bold;
