@@ -3,7 +3,8 @@ body {
 }
 iframe {
   border: none;
-  position: fixed;
+  height: 100vh;
+  width: 100%;
 }
 nav a {
   color: black;
@@ -31,10 +32,15 @@ h2 {
 h3 {
   font-size: 1rem;
 }
-.bg {
+.bg-home {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%),
   linear-gradient(269.97deg, #81C784 18.18%, #7986CB 80.98%);
   height: 30rem;
+}
+.bg {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%),
+  linear-gradient(269.97deg, #81C784 18.18%, #7986CB 80.98%);
+  height: 15rem;
 }
 .tw-grid {
   height: 24rem;
